@@ -1,0 +1,35 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.App .card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.form-check{
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.form-check-input{
+  margin-left: 10px !important;
+  margin-top: 9px !important;
+}
+.form-check-label{
+  padding-left: 40px !important;
+  padding-bottom: 5px !important;
+}

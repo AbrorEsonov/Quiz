@@ -1,0 +1,49 @@
+{
+    "data": [
+      {
+        "question": "In React what is used to pass data to a component from outside?",
+        "choices": ["setState", "render with arguments", "props", "PropTypes"],
+        "answer": "props"
+      },
+      {
+        "question": "What is Babel?",
+        "choices": ["Transpiler", "interpreter", "Compiler", "Both Compiler and Transpiler"],
+        "answer": "Both Compiler and Transpiler"
+      },
+      {
+        "question": "What is ReactJs?",
+        "choices": ["Server side Framework", "User-interface framework", "A Library for building UI", "None of These"],
+        "answer": "A Library for building UI"
+      },
+      {
+        "question": "What does ReactJs use to increase performance?",
+        "choices": ["Original DOM", "Virtual DOM", "Both of 1 & 2", "None of these"],
+        "answer": "Virtual DOM"
+      },
+      {
+        "question": "What is a ReactJs in MVC?",
+        "choices": ["Middleware", "Controller", "Model", "Router"],
+        "answer": "Controller"
+      },
+      {
+        "question": "What is the smallest building block of ReactJS?",
+        "choices": ["none of the options", "props", "elements", "components"],
+        "answer": "elements"
+      },
+      {
+        "question": "Everything in react is .....?",
+        "choices": ["Module", "Component", "Package", "Class"],
+        "answer": "Component"
+      },
+      {
+        "question": "Which of the following is the correct data flow sequence of flux concept?",
+        "choices": ["Dispatcher->Action->Store->View", "Action->Dispatcher->View->Store", "Action->Dispatcher->Store->View", "Action->Store->Dispatcher->View"],
+        "answer": "Action->Dispatcher->Store->View"
+      },
+      {
+        "question": "What is state in react?",
+        "choices": ["persistant storage", "An internal data store (object) of a component", "Both of 1 & 2", "none of thes"],
+        "answer": "An internal data store (object) of a component"
+      }
+    ]
+  }
