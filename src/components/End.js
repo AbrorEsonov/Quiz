@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import { formatTime } from '../utils';
 
-const End = ({ results, data, onReset, onAnswersCheck, time }) => {
+const End = ({ results, data, onReset, onAnswersCheck, time, username }) => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const End = ({ results, data, onReset, onAnswersCheck, time }) => {
   return(
     <div className="card">
       <div className="card-body">
-          <h3 className="card-title">Your results</h3>
+          <h3 className="card-title">{username}, Your results</h3>
           <p className="card-text">{correctAnswers} of {data.length}</p>
           <p className="card-text"><strong>{Math.floor((correctAnswers / data.length) * 100)}%</strong></p>
           <p className="card-text"><strong>Your time:</strong> {formatTime(time)}</p>

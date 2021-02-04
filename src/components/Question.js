@@ -43,6 +43,7 @@ function Question({
       onSetStep(3);
     }
   };
+  
   return (
     <div className="card">
       <div className="card-body">
